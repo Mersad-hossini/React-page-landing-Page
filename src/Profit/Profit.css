@@ -1,0 +1,40 @@
+@import url("../GeneralStyles.css");
+
+.profit-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.left-side-img, .left-side-img img {
+    width: 100%;
+}
+
+.left-side-img {
+    flex-basis: 50%;
+}
+.right-side-content {
+    flex-basis: 50%;
+    max-width: 24rem;
+}
+
+.right-side-content h3 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.right-side-content p {
+    line-height: 1.5rem;
+    color: #8c979e;
+}
+
+@media only screen and (max-width: 768px) {
+    .profit-wraper {
+        flex-direction: column;
+        text-align: center;
+    }
+}

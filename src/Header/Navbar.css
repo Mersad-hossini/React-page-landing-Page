@@ -1,0 +1,65 @@
+@import url("../GeneralStyles.css");
+
+.navbar {
+    padding: 1.5rem;
+    background: aliceblue;
+    width: 100%;
+}
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    font-size: 1.7rem;
+    color: #666666;
+    font-weight: normal;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    padding-left: 3rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.menu-bar img {
+    width: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -240px;
+        bottom: 0;
+        background-color: #b6cf55;
+        width: 15rem;
+        flex-direction: column;
+        padding-top: 2rem;
+        transition: 0.3s;
+    }
+
+    .nav-link {
+        padding-bottom: 2rem;
+        font-weight: 600;
+    }
+    
+    .menu-bar {
+        display: block;
+        cursor: pointer;
+    }
+}

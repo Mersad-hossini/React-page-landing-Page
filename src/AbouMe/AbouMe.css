@@ -1,0 +1,27 @@
+@import url("../GeneralStyles.css");
+
+.aboutMe-section {
+    background-image: url("../../public/good.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 0;
+}
+
+.about-me-wrapper {
+    text-align: center;
+}
+
+.about-me-title {
+    margin-bottom: 2rem;
+    font-size: 60px;
+    color: #fff;
+}
+
+.about-me-text {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #fff;
+}

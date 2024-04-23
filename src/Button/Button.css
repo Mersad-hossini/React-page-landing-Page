@@ -1,0 +1,16 @@
+@import url("../GeneralStyles.css");
+
+.header-button {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.read-btn{
+    text-decoration: none;
+    background-color: #745cf9;
+    padding: 1.2rem 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}

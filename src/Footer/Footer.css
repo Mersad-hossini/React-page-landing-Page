@@ -1,0 +1,43 @@
+@import url("../GeneralStyles.css");
+
+footer {
+    background-color: #0e1015;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
+.left-side h4 {
+    color: #fefefe;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.right-side a {
+    padding-left: 2rem;
+    color: #fefefe;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-wrapper {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .left-side {
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+    .right-side {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .right-side a {
+        margin-bottom: 1.5rem;
+    }
+}

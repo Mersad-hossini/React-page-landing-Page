@@ -1,0 +1,25 @@
+@import url("../GeneralStyles.css");
+
+.content-text {
+    text-align: center;
+    color: #000;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.gallery-title {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.img-wrapper {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.img-wrapper img {
+    width: 300px;
+    height: 250px;
+    margin: 0.5rem;
+}
